@@ -1,4 +1,4 @@
-##--Packages in RESTful
+##Packages in RESTful
 the main packages that will be created for each projects are:
 
 Classes (some call them Objects)
@@ -11,7 +11,7 @@ there could be more packages depend on the project or the programmer and his met
 Some programmers create Packages and name it by the Object name, and insert everything related to that object inside the package
 
 
-##--Naming Classes 
+##Naming Classes 
 Let's assume we want to create a User
 
 Class User (it is the name for the Object that the user info)
@@ -23,7 +23,7 @@ Trials
 3
 ```
 
-#--HTTP Status Codes:
+#HTTP Status Codes:
 
 200 (OK)
 201 (Created)
