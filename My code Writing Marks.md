@@ -1,20 +1,20 @@
 # Packages in RESTful
 the main packages that will be created for each projects are:
 
-Classes (some call them Objects)
-Databases (for who need an inner database)
-HelperClasses (some call them DAOServices)
-Controllers(some call them JPAResources or Resources)
-ExceptionsClasses
+- Classes (some call them Objects)
+- Databases (for who need an inner database)
+- HelperClasses (some call them DAOServices)
+- Controllers(some call them JPAResources or Resources)
+- ExceptionsClasses
 
-there could be more packages depend on the project or the programmer and his method
+there could be more packages depend on the project or the programmer and his method.
 Some programmers create Packages and name it by the Object name, and insert everything related to that object inside the package
 
 
 ## Naming Classes 
 Let's assume we want to create a User
 
-Class User (it is the name for the Object that the user info)
+- Class User (it is the name for the Object that the user info)
 
 ### HTTP Status Codes:
 
