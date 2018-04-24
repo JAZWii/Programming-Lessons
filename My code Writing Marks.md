@@ -1,4 +1,4 @@
-## Packages in RESTful
+# Packages in RESTful
 the main packages that will be created for each projects are:
 
 Classes (some call them Objects)
@@ -16,26 +16,22 @@ Let's assume we want to create a User
 
 Class User (it is the name for the Object that the user info)
 
+### HTTP Status Codes:
+
 ```markdown
-Trials
-1
-2
-3
-```
-
-# HTTP Status Codes:
-
 - 200 (OK)
 - 201 (Created)
 - 202 (Accepted)
 - 204 (No Content)
-
+```
+```markdown
 - 301 (Moved Permanently)
 - 302 (Found)
 - 303 (See Other)
 - 304 (Not Modified)
 - 307 (Temporary Redirect)
-
+```
+```markdown
 - 400 (Bad Request)
 - 401 (Unauthorized)
 - 403 (Forbidden)
@@ -44,7 +40,8 @@ Trials
 - 406 (Not Acceptable)
 - 412 (Precondition Failed)
 - 415 (Unsupported Media Type)
-
+```
+```markdown
 - 500 (Internal Server Error)
 - 501 (Not Implemented)
-	
+```
