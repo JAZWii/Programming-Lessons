@@ -1,37 +1,47 @@
-## Welcome to GitHub Pages
+# Packages in RESTful
+the main packages that will be created for each projects are:
 
-You can use the [editor on GitHub](https://github.com/JAZWii/Programming-Lessons/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+- Classes (some call them Objects)
+- Databases (for who need an inner database)
+- HelperClasses (some call them DAOServices)
+- Controllers(some call them JPAResources or Resources)
+- ExceptionsClasses
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+there could be more packages depend on the project or the programmer and his method.
+Some programmers create Packages and name it by the Object name, and insert everything related to that object inside the package
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Naming Classes 
+Let's assume we want to create a User
+
+- Class User (it is the name for the Object that the user info)
+
+### HTTP Status Codes:
 
 ```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+- 200 (OK)
+- 201 (Created)
+- 202 (Accepted)
+- 204 (No Content)
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/JAZWii/Programming-Lessons/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+```markdown
+- 301 (Moved Permanently)
+- 302 (Found)
+- 303 (See Other)
+- 304 (Not Modified)
+- 307 (Temporary Redirect)
+```
+```markdown
+- 400 (Bad Request)
+- 401 (Unauthorized)
+- 403 (Forbidden)
+- 404 (Not Found)
+- 405 (Method Not Allowed)
+- 406 (Not Acceptable)
+- 412 (Precondition Failed)
+- 415 (Unsupported Media Type)
+```
+```markdown
+- 500 (Internal Server Error)
+- 501 (Not Implemented)
+```
